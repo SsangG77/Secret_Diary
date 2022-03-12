@@ -32,7 +32,6 @@ class diaryActivity : AppCompatActivity() {
         diaryText.addTextChangedListener {
             hander.removeCallbacks(runnable)
             hander.postDelayed(runnable, 500)
-            
         }
     }
 }
